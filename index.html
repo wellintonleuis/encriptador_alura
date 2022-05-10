@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/images/icons/Logo.png" alt="logo">
+    </header>
+    <main>
+         <div class="contenedor-encritar">
+                <input type="text" id="a-encriptar" placeholder="Ingrese el texto aqui">
+                <p><span><img src="/images/icons/Vector.png" alt=""></span>Solo letras mayuscula y sin acentos</p>
+                <div class="contenedor-botones">
+                    <button id="b-enc">encriptar</button>
+                    <button id="b-desc" class="desencriptar">desencriptar</button>
+                 </div>
+            </div>
+        <div class="contenedor-pantalla">
+            <div id="cuadro-figura"  class="pantalla-texto">
+                 <img src="/images/Muñeco.png" alt="imagen inteligente">
+                 <h1>Ningun mensaje fue encontrado</h1>
+                 <label id="labelTexto" for="a-encriptar">ingrese el texto que desee encriptar o desencriptar</label>
+            </div>
+                <div class="area_desencriptar" hidden class="pantalla-texto">
+                <div>
+                <textarea name="" id="text2" cols="50" rows="20" wrap="soft"></textarea>
+                </div>
+           </div>
+        </div>
+        <button id="copiar" hidden>Copiar</button>
+    </main>
+    <script src="/src/index.js"></script>
+</body>
+</html>

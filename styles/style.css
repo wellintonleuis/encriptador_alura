@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    
+}
+
+header{
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+header img{
+    width: 200px;
+}
+
+main{
+    margin: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.contenedor-encritar{
+    width: 50%;
+    margin-right: 300px;
+}
+
+.contenedor-encritar input{   
+    display: block;
+    width: 577px;
+    height: 48px;
+    padding-left: 10px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 400px;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 150%;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.pantalla-texto{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    margin-bottom: 0px;
+    left: auto;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+.contenedor-pantalla img{
+    width: 400px;
+    height: 450px;
+    margin-top: 180px;
+    margin-bottom: 40px;
+    
+}
+#labelTexto{
+    color:#FFFFFF;
+}
+.pantalla-texto h1{
+    position: static;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    line-height: 120%
+}
+.pantalla-texto label{
+position: static;
+width: 336px;
+height: 48px;
+left: 0px;
+top: 74px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #495057;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+
+}
+.contenedor-botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 150px;
+    top: 770px;
+}
+button{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background-color: #0A3871;
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    margin-top: 0px;
+    margin-left: 40px;
+    border-radius: 24px;
+
+}
+div .desencriptar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+.contenedor-encritar p{
+    margin: 150px;
+    text-align: left;
+} 
+.pantalla-texto div{
+    background-color: red;
+    margin-top: 400px;
+    
+}
+textarea{
+    text-align: justify;
+}
+#copiar{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 1200px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
